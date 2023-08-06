@@ -1,0 +1,10 @@
+.content {
+    position: relative;
+    padding: 10px;
+    background-color: var(--tertiary-color);
+    color: var(--accent-color);
+}
+
+.content i{
+    font-size: 5em;
+}

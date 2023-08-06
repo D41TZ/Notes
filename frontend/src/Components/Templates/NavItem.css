@@ -1,0 +1,17 @@
+.NavItem {
+    display: block;
+    margin: 10px;
+    margin-top: 15px;
+    width: 160px;
+    text-decoration: none;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: .3s;
+}
+.NavItem:hover{
+    transform: scale(1.05);
+    background-color: var(--tertiary-color);
+    box-shadow: 0px 0px 0.5em var(--tertiary-color), 0px 0px 1em var(--tertiary-color);
+    transition: .3s;
+}

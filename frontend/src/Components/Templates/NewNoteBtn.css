@@ -1,0 +1,25 @@
+button.newNote{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0px;
+    margin: 10px;
+    width: 160px;
+    border-radius: 13px;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+button.newNote:hover {
+    color: #ffffff;
+    transform: scale(1.15);
+    transition-duration: .5s;
+}
+
+button.newNote p {
+    display: inline;
+    font-size: 1.2em;
+}

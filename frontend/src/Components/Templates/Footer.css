@@ -1,0 +1,13 @@
+footer.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: var(--primary-color);
+}
+footer.footer .fa-heart {
+    color: #ffffff;
+}
+footer.footer .fa-heart:hover {
+    color: #f00;
+}

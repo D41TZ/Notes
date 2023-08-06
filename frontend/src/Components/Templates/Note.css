@@ -1,0 +1,14 @@
+.note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: var(--secondary-color);
+    margin: 30px;
+    border-radius: 10px;
+}

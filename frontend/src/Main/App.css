@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #4EC365;
+    --secondary-color: #73D186;
+    --tertiary-color: #86D896;
+    --accent-color: #20582B;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 1fr 35px;
+    grid-template-areas: 
+        "headerA headerA"
+        "menuA contentA"
+        "footerA footerA";
+    height: 100%;
+}
+
+header.header {
+    grid-area: headerA;
+}
+aside.menuArea {
+    grid-area: menuA;
+}
+.content {
+    grid-area: contentA;
+}
+footer.footer {
+    grid-area: footerA;
+}
